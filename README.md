@@ -1,6 +1,14 @@
 # Height Detection and BMI Analysis System
 
+> **Note:** This is the backend component of an Android application being developed by Skids Health for height measurement. The system is designed to be integrated with a mobile frontend for easy height measurement and health tracking.
+
+## Overview
+
 This project implements a computer vision-based system for detecting human height and analyzing it against WHO growth standards. The system uses YOLO for person detection and depth estimation for accurate height measurement.
+
+The system consists of two main components:
+1. **Height Detection**: Uses YOLO for person detection and depth estimation to measure height
+2. **BMI Analysis**: Compares measurements against WHO growth standards
 
 ## Table of Contents
 - [Overview](#overview)
