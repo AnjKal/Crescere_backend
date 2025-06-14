@@ -37,7 +37,7 @@ The system consists of two main components:
 
    
    *Figure 1: Reference object (bottle) placed at a known distance from the camera*
-   <img src="images/BOTTLE.jpg" style="width:30%;height:auto;" />
+   <img src="images/BOTTLE.jpg" style="width:50%;height:auto;" />
 
 2. **Capture the Reference Image**
    - Take a clear photo of the reference object
@@ -48,7 +48,7 @@ The system consists of two main components:
    python dpt.py --image path_to_reference_image.jpg
    ```
    - The script will display the detected height of the reference object
-   <img src="images/Bottle result.png" style="width:30%;height:auto;" />
+   <img src="images/Bottle result.png" style="width:50%;height:auto;" />
 
 4. **Calculate the Scaling Factor**
    - Let's say the actual height of your reference object is A cm
@@ -73,14 +73,14 @@ The system consists of two main components:
      - Bounding box around the person
      - Depth map visualization
      - Calculated height in the command prompt
-     <img src="images/Ref_image4.jpg" style="width:30%;height:auto;" />
+     <img src="images/Ref_image4.jpg" style="width:50%;height:auto;" />
    *Figure 2: Person detection with height measurement*
 
-   <img src="images\result1.png" style="width:30%;height:auto;" />
+   <img src="images/result1.png" style="width:50%;height:auto;" />
 
    
 
-   <img src="images/depth-map.png" style="width:30%;height:auto;" />
+   <img src="images/depth-map.png" style="width:50%;height:auto;" />
    *Figure 3: Depth map used for height calculation*
 
 ### Important Notes
