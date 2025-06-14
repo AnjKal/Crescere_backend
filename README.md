@@ -73,7 +73,9 @@ The system consists of two main components:
      - Bounding box around the person
      - Depth map visualization
      - Calculated height in the command prompt
-     <img src="images/Ref_image4.jpg" style="width:50%;height:auto;" />
+   - I asked a friend to stand at the same position as the bottle
+
+     <!-- <img src="images/Ref_image4.jpg" style="width:50%;height:auto;" /> -->
    
 
    <img src="images/result1.png" style="width:80%;height:auto;" />
@@ -81,7 +83,7 @@ The system consists of two main components:
    
 
    <img src="images/depth-map.png" style="width:50%;height:auto;" />
-   
+   -these are the depth map and height measurement which are accurate to over 90% which is due to the difference in angle of the bottle and the person
 
 ### Important Notes
 - Maintain consistent lighting conditions during calibration and measurement
